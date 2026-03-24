@@ -3,18 +3,18 @@ Je vindt de code in scripts met de naam CubeAgentRaysWithGreenzone, en de scene 
 
 ## Overzicht
 In dit project leert een agent twee acties na elkaar uitvoeren:
-1. Een blokje zoeken en aanraken  
+1. Een rode balletje zoeken en aanraken  
 2. Daarna naar een groene zone gaan  
 
 De episode eindigt zodra beide stappen voltooid zijn.
 
 ## Doel
-Nagaan of een PPO-agent dit sequentieel gedrag kan aanleren binnen een beperkte trainingstijd.
+Nagaan of een agent dit sequentieel gedrag kan aanleren binnen een beperkte trainingstijd.
 
 ## Omgeving
 - Vlak speelveld  
-- Agent start in het midden  
-- Blokje verschijnt op een willekeurige positie  
+- Agent start op het platform
+- balletje verschijnt op een willekeurige positie  
 - Groene zone ligt vast in de scene  
 - Acties: vooruit bewegen en roteren  
 
@@ -26,7 +26,7 @@ Nagaan of een PPO-agent dit sequentieel gedrag kan aanleren binnen een beperkte 
 
 ## Observaties
 - Positie agent  
-- Positie blokje  
+- Positie rode balletje  
 - Positie groene zone  
 - Status (blokje verzameld of niet)  
 
@@ -43,8 +43,3 @@ Nagaan of een PPO-agent dit sequentieel gedrag kan aanleren binnen een beperkte 
 
 ## Conclusie
 Het lijkt erop dat de agent het gewenste gedrag aanleert: eerst het blokje zoeken, daarna de zone bereiken.  
-De resultaten zijn gebaseerd op één run, dus herhaling is nodig om dit te bevestigen.
-
-## Referenties
-- Schulman et al. (2017), Proximal Policy Optimization Algorithms  
-- Unity ML-Agents Toolkit documentatie  
