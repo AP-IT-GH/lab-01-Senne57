@@ -19,8 +19,8 @@ Nagaan of een agent dit sequentieel gedrag kan aanleren binnen een beperkte trai
 - Acties: vooruit bewegen en roteren  
 
 ## Beloningen
-- Blokje aanraken: +0.5  
-- Groene zone bereiken (na blokje): +1.0  
+- balletje aanraken: +0.5  
+- Groene zone bereiken (na balletje): +1.0  
 - Tijdstraf: −0.001 per stap  
 - Episode stopt bij succes of wanneer de agent valt  
 
@@ -28,19 +28,18 @@ Nagaan of een agent dit sequentieel gedrag kan aanleren binnen een beperkte trai
 - Positie agent  
 - Positie rode balletje  
 - Positie groene zone  
-- Status (blokje verzameld of niet)  
+- Status (balletje verzameld of niet)  
 
 ## Training
-- Algoritme: PPO (Unity ML-Agents)  
 - ~340.000 stappen  
 - Standaard instellingen  
 - Eén trainingsrun  
 
 ## Resultaten
-- Cumulatieve beloning stijgt tot ~1.25 en bereikt een plateau  
+- Cumulatieve beloning stijgt tot ~1.25 en blijft rond deze waarde hangen
 - Episodelengte daalt van ~100 naar ~14 stappen  
 - Value loss daalt, policy loss blijft schommelen
-- <img width="1289" height="855" alt="image" src="https://github.com/user-attachments/assets/e5d303fd-65e2-4ac9-84ef-5a1d5a0845a1" />
+<img width="1289" height="855" alt="image" src="https://github.com/user-attachments/assets/e5d303fd-65e2-4ac9-84ef-5a1d5a0845a1" />
 
 
 ## Conclusie
