@@ -47,6 +47,8 @@ De observatievector bestaat uit 10 floats.
 ## Resultaten
 - Cumulatieve beloning stijgt van ~1.3 (stap 500k) naar ~8.5 (stap 950k)
 - Episodelengte daalt initieel sterk, stijgt licht bij meer menhirs (logisch door langere cycli)
+<img width="1176" height="905" alt="image" src="https://github.com/user-attachments/assets/0d9e1eba-c1d5-4f92-9f44-cea5765160d4" />
+
 
 ## Conclusie
 De agent leert het gewenste sequentieel gedrag succesvol aan: menhirs ophalen en afleveren in de juiste volgorde. Dankzij curriculum learning en context-afhankelijke observaties generaliseert het gedrag van 1 naar 5 menhirs. De cumulatieve beloning stijgt consistent, waardoor het lijkt dat de agent de taak beheerst.
