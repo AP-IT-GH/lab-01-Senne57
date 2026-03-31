@@ -1,2 +1,3 @@
 # README
-Opdracht ML-Agents week 1 : README.MLAgentsGreenZone.md
+Opdracht 1 ML-Agents: README.MLAgentsGreenZone.md
+Opdracht 2 Obelix: README.Obelix.md
