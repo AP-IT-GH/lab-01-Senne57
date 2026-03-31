@@ -52,4 +52,4 @@ De observatievector bestaat uit 10 floats.
 
 
 ## Conclusie
-De agent leert het gewenste sequentieel gedrag succesvol aan: menhirs ophalen en afleveren in de juiste volgorde. Dankzij curriculum learning en context-afhankelijke observaties generaliseert het gedrag van 1 naar 5 menhirs. De cumulatieve beloning stijgt consistent, waardoor het lijkt dat de agent de taak beheerst.
+De agent leert het gewenste sequentieel gedrag succesvol aan volgens mij: menhirs ophalen en afleveren in de juiste volgorde. Dankzij curriculum learning en context-afhankelijke observaties generaliseert het gedrag van 1 naar 5 menhirs. De cumulatieve beloning stijgt consistent, waardoor het lijkt dat de agent de taak beheerst.
