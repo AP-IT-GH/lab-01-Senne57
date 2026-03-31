@@ -47,6 +47,7 @@ De observatievector bestaat uit 10 floats.
 ## Resultaten
 - Cumulatieve beloning stijgt van ~1.3 (stap 500k) naar ~8.5 (stap 950k)
 - Episodelengte daalt initieel sterk, stijgt licht bij meer menhirs (logisch door langere cycli)
+- Bij de reward kunnen we ook zien dat het tussen ~100k tot ~250k het goed gaat maar dit was met 1 menhir daarna heb ik het naar 2 menhirs gebracht waardoor we kunnen zien aan de grafiek dat de agent er veel moeite mee had. Daarna ging het terug beter en toen voegde ik er nog meerde menhirs bij tot 5. 
 <img width="1176" height="905" alt="image" src="https://github.com/user-attachments/assets/0d9e1eba-c1d5-4f92-9f44-cea5765160d4" />
 
 
