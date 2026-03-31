@@ -1,0 +1,65 @@
+{
+    "CubeAgent": {
+        "checkpoints": [
+            {
+                "steps": 449643,
+                "file_path": "results\\ObelixAgent\\CubeAgent\\CubeAgent-449643.onnx",
+                "reward": 3.6524112224578857,
+                "creation_time": 1774959522.093187,
+                "auxillary_file_paths": [
+                    "results\\ObelixAgent\\CubeAgent\\CubeAgent-449643.pt"
+                ]
+            },
+            {
+                "steps": 499907,
+                "file_path": "results\\ObelixAgent\\CubeAgent\\CubeAgent-499907.onnx",
+                "reward": 4.485129654407501,
+                "creation_time": 1774959831.0200467,
+                "auxillary_file_paths": [
+                    "results\\ObelixAgent\\CubeAgent\\CubeAgent-499907.pt"
+                ]
+            },
+            {
+                "steps": 500035,
+                "file_path": "results\\ObelixAgent\\CubeAgent\\CubeAgent-500035.onnx",
+                "reward": 4.485129654407501,
+                "creation_time": 1774959831.1229463,
+                "auxillary_file_paths": [
+                    "results\\ObelixAgent\\CubeAgent\\CubeAgent-500035.pt"
+                ]
+            },
+            {
+                "steps": 999962,
+                "file_path": "results\\ObelixAgent\\CubeAgent\\CubeAgent-999962.onnx",
+                "reward": 2.3683488368988037,
+                "creation_time": 1774962019.935525,
+                "auxillary_file_paths": [
+                    "results\\ObelixAgent\\CubeAgent\\CubeAgent-999962.pt"
+                ]
+            },
+            {
+                "steps": 1000090,
+                "file_path": "results\\ObelixAgent\\CubeAgent\\CubeAgent-1000090.onnx",
+                "reward": 2.3683488368988037,
+                "creation_time": 1774962019.989809,
+                "auxillary_file_paths": [
+                    "results\\ObelixAgent\\CubeAgent\\CubeAgent-1000090.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000090,
+            "file_path": "results\\ObelixAgent\\CubeAgent.onnx",
+            "reward": 2.3683488368988037,
+            "creation_time": 1774962019.989809,
+            "auxillary_file_paths": [
+                "results\\ObelixAgent\\CubeAgent\\CubeAgent-1000090.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

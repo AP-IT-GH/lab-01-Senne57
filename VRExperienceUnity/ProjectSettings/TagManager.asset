@@ -8,6 +8,8 @@ TagManager:
   - marker
   - Enemy
   - GreenZone
+  - Menhir
+  - Destination
   layers:
   - Default
   - TransparentFX

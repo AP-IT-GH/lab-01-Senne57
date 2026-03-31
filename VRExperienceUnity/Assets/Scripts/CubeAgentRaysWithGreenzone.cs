@@ -19,7 +19,7 @@ public class CubeAgentRaysWithGreenzone : Agent
         this.transform.localPosition = new Vector3(0, 0.5f, 0);
         this.transform.localRotation = Quaternion.identity;
 
--
+
         Enemy.gameObject.SetActive(true);
         Enemy.localPosition = new Vector3(Random.value * 8 - 4, 0.5f, Random.value * 8 - 4);
     }
